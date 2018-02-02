@@ -1,0 +1,11 @@
+<div class="container">
+<div class="task">
+<app-newtask (taskcreated)="onItemAdded($event)" >
+</app-newtask>
+</div>
+<div class="dolist">
+<app-dolist [newtask]="task">
+
+</app-dolist>
+</div>
+</div>
